@@ -1,23 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import NavScrollExample from './componentes/nav/Navbar'
+import UncontrolledExample from './componentes/slider/Slider'
+import BasicExample from './componentes/contenido/Contenido'
+import GroupExample from './componentes/cards/Cards'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavScrollExample/>
+      <UncontrolledExample/>
+      <BasicExample/>
+      <GroupExample/>
     </div>
   );
 }
